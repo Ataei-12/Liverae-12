@@ -1,0 +1,7 @@
+Flask
+telebot
+beautifulsoup4
+requests
+pytz
+jdatetime
+python-dotenv
