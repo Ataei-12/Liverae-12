@@ -18,6 +18,7 @@ CHANNEL = os.getenv("CHANNEL_USERNAME")
 
 app = Flask(__name__)
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
+bot.send_message(CHANNEL, "✅ تست ارسال مستقیم موفق بود")
 STATE_FILE = "state.json"
 
 AF_MONTHS = [
